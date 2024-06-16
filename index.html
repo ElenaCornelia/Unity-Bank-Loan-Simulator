@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Unity Bank Loan Simulator</title>
+  </head>
+  <body>
+    <h1>Unity Bank Loan Simulator</h1>
+    <div class="container">
+      <!-- NAV BAR -->
+      <div class="tabs">
+        <p>Personal Banking</p>
+        <p class="active">Loans<span class="underline"></span></p>
+        <p>Investment Services</p>
+        <p>Business Banking</p>
+      </div>
+
+      <!-- LINE -->
+      <div class="line"></div>
+      <!-- TOGGLE -->
+      <div class="toggle-wrapper">
+        <img src="images/icon1.png" alt="" />
+        <div class="toggle">
+          <span>Dark</span>
+          <span>Light</span>
+        </div>
+        <img src="images/icon2.png" alt="" />
+      </div>
+      <!-- sessions -->
+      <div class="sessions-card">
+        <p>Loan Amount</p>
+        <p class="number">$17500</p>
+      </div>
+      <p class="description">
+        Use our loan simulator to estimate your monthly payments and total interest based on the loan amount and term you choose. Adjust the loan amount and terms to find a plan that suits your needs.
+      </p> 
+      <!-- slider -->
+      <div class="slider">
+        <div class="bar">
+          <div class="progress"></div>
+          <div class="point"></div>
+        </div>
+        <div class="scale">
+        <ul>
+          <li>500</li>
+          <li>1K</li>
+          <li>5K</li>
+          <li>10K</li>
+          <li>15K</li>
+          <li>25K</li>
+          <li>50K</li>
+          <li>100K</li>
+          <li>150K</li>
+        </ul> </div>
+      </div>
+      <!-- PRICE TAGS -->
+       <div class="card-wrapper">
+        <!-- CARD1 price -->
+        <div class="card">
+          <div class="top-section">
+            <p>Monthly Payment</p>
+            <p class="price">$160</p>
+            <p>With Life Insurance</p>
+          </div>
+          <hr>
+          <p>Variable interest rate starting at 2.5%</p>
+          <p>10 Year Term</p>
+          <button>Apply Now</button>
+        </div>
+        <!-- card2 price -->
+        <div class="card">
+          <div class="top-section">
+            <div class="save">
+              <p>Save on Interest!</p>
+            </div>
+            <p>Monthly Payment</p>
+            <p class="price">$179</p>
+            <p>With Life Insurance</p>
+          </div>
+          <hr>
+          <p>Fixed interest rate of 3.0%</p>
+          <p>15 Year Term</p>
+          <button>Apply Now</button>
+        </div>
+       </div>
+    </div>
+    <footer>
+      <p>&copy; 2024 Unity Bank. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
